@@ -55,6 +55,11 @@ input[type="text"]::placeholder {
     width: 200px;
     padding: 10px;
     text-align: center;
+    transition: transform 0.3s; /* Transição suave para o efeito */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do cartão ao passar o mouse */
 }
 
 .card img {
